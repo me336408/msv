@@ -1,0 +1,312 @@
+/*******************************************************************************
+ * hero.layout.scss
+ *
+ * Styles for the Hero layout.
+ ******************************************************************************/
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+
+// Globbing from within sub-folders only works with relative paths.
+@import "../../variables/**/*";
+
+$vert-spacing-unit: 20px;
+$horz-spacing-unit: 1em;
+
+$include-clearfix: true;
+
+// Set breakpoint values.
+// $wvga: 855px; //854 X 480 "WVGA (NTSC)"
+// $pal: 1025px; //1024 X 576 " PAL"
+// $hd720: 1281px; //1280 X 720 "HD 720"
+// $hd1366: 1367px; //1366 X 768 ""
+// $wsxga: 1601px; //1600 X 900 ""
+// $hd1080: 1921px; //1920 X 1080 "HD 1080"
+// $wqhd: 2561px; //2560 X 1440 "WQHD"
+
+$tab: 44em;
+$desk: 70em;
+
+// Set Singularity grid variables.
+@include add-grid(4 );
+@include add-grid(12 at $tab);
+
+@include add-gutter(1/2);
+
+@include sgs-change('debug', true);
+
+ .l-constrained {
+  //@include background-grid;
+   // overflow: auto;
+   width: 95%;
+   margin: 0 auto;
+   @include pie-clearfix;
+ }
+ .l-header{
+ p, h2 {
+        //font-size: 1vw;
+        //line-height: 1.618vw;
+        margin: 0;
+      }
+    }
+.l-navigation{
+      //@include add-gutter(1/3);
+      clear: right;
+      //@include background-grid;
+      @include pie-clearfix;
+      .block-body p{
+        background-color: black;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1em;
+        padding: 0.381em;
+        //line-height: 1em;
+      }
+    }
+// /* Header 
+// .l-region--header {
+//   padding: $vert-spacing-unit 0;
+
+//   .block {
+//     float: right;
+//   }
+// }*/
+
+// /* Content Area */
+// .l-highlighted-wrapper {
+//   padding: $vert-spacing-unit 0;
+// }
+// .l-region--highlighted {
+//   @extend .l-constrained;
+// }
+// .l-region--help {
+//   margin-bottom: $vert-spacing-unit;
+// }
+// .l-main {
+//   margin-top: 2 * $vert-spacing-unit;
+//   margin-bottom: 2 * $vert-spacing-unit;
+// }
+.l-region--thumbnail-1{
+  height: 100%;
+  @include grid-span(2, 1);
+  clear: left;
+}
+.l-region--thumbnail-2{
+  height: 100%;
+  @include grid-span(2, 3);
+  clear: right;
+}
+.l-region--thumbnail-3{
+  height: 100%;
+  @include grid-span(2, 1);
+  clear: left;
+}
+.l-region--thumbnail-4{
+  height: 100%;
+  @include grid-span(2, 3);
+  clear: right;
+}
+
+
+// /* Sidebars */
+// .l-region--sidebar-first,
+// .l-region--sidebar-second {
+//   padding: $vert-spacing-unit $horz-spacing-unit;
+// }
+
+// /* Footer */
+// .l-footer-wrapper {
+//   padding: $vert-spacing-unit 0;
+// }
+// .l-region--footer {
+//   @extend .l-constrained;
+// }
+
+
+
+
+@include breakpoint($tab, true) {
+  .l-header{
+    @include clearfix;
+    padding: gutter-span()/2 0;
+    background: image-url("front-page-bg.jpg") center top;
+    background-size: cover;
+    
+      p, h2 {
+        font-size: 1vw;
+        //line-height: 1.618vw;
+        margin: 0;
+      }
+    .l-region--branding,
+    .l-navigation,
+    .l-region--video,
+    .l-region--request{
+    margin: gutter-span()/2 0;
+    }
+    .l-region--branding {
+      @include float-span(4, 'first');
+      // clear: left;
+    }
+    .l-navigation{
+      @include float-span(8, 'last');
+      //@include add-gutter(1/3);
+      // clear: right;
+      //@include background-grid;
+      
+      .block-body{
+        background-color: black;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    
+      .l-region--thumbnail-1{
+        @include float-span(3, 'first');
+        }
+      .l-region--thumbnail-2{
+        @include float-span(3);
+      }
+      .l-region--thumbnail-3{
+        @include float-span(3);
+      }
+      .l-region--thumbnail-4{
+        @include float-span(3, 'last');
+      }
+      //@include pie-clearfix;
+      // clear: right;
+    }
+    .l-region--video {
+      @include float-span(8, 'first');
+      // clear: left;
+    }
+    .l-region--request {
+      .pane-entityform-block-signup-for-contact{
+        border-radius: 0.5vw;
+        position: relative;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background-color: $site-color;
+        //height: auto;
+        padding-bottom: 117.49%;
+      }
+      text-align: center;
+
+      @include float-span(4, 'last');
+      //@include clearfix;// clear: right;
+      h2.pane-title{
+        
+        font-size: 2vw;
+        line-height: 1.618vw;        //text-align: center;
+        color: $yellow;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 1vw;
+        }
+
+      p{
+        font-size: 1.39vw;
+        color: white;
+        margin-bottom: 1vw;
+      }
+      
+      .field-widget-name-widget{
+        @include float-span(6,'first') ;
+        // .name-given-wrapper{
+        //   @include grid-span(6,1,8) ;
+        // }
+        // .name-family-wrapper{
+        //   @include grid-span(4,5,8) ;
+        // }
+      }
+      
+      label{
+          display: none;
+        }
+      .form-item, .form-wrapper, .form-submit{
+          margin-top: 0.33vw;
+          margin-bottom: 0;
+      }
+      //.field-type-name .form-item-field-name .form-item
+      // .name-given-wrapper .form-item,
+      // .name-family-wrapper .form-item{
+      //   margin: 0;
+      // }
+      input, textarea{
+        resize: none;
+        width: 100%;
+        font-size: 1.39vw;
+      }
+      .field-name-field-name{
+        @include float-span(6,'first') ;
+      }
+
+      .field-name-field-phone{
+        @include float-span(6,'last') ;
+      }
+      //@include background-grid;
+      .field-name-field-email{
+        @include float-span(6,'first') ;
+      }
+      .field-name-field-website{
+        @include float-span(6,'last') ;
+      }
+      
+      fieldset.form-wrapper{
+        border: 0;
+        margin: 0;
+        padding: 0;
+        legend{
+            display: none;
+          }
+      }
+      
+      .field-widget-text-textarea{
+          @include float-span(12,'first') ;
+      }
+      .form-submit{
+        //include float-span(8,3) ;
+        width: 80%;
+        //white-space: pre-wrap;
+        //padding: 4% 9%;
+        //button{
+          //color: white;
+          //background-color: $site-color;
+        //}
+        //border-radius: 1vw;
+      }
+      //@include background-grid();
+    }
+  }
+
+  .l-constrained {
+  // //   //.block__title{
+  // //   //}
+  // //max-width: $tab;
+      width: 90%;
+  //   //max-width: 60.8em;
+    
+  //    //max-width: 1563px;
+     
+  }
+
+
+}
+
+/* @include breakpoint($desk, true) {
+  .l-constrained {
+  //  max-width: 2930px;
+//   //   //.block__title{
+//   //   //}
+//   // max-width: $desk;
+     width: 80%;
+  }
+} */
+
+// @include breakpoint($wqhd, true) {
+//   .l-constrained {
+//     max-width: 2930px;
+//   }
+// }
+

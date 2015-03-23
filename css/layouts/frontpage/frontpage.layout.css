@@ -1,0 +1,270 @@
+/*******************************************************************************
+ * hero.layout.scss
+ *
+ * Styles for the Hero layout.
+ ******************************************************************************/
+/* line 38, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+.l-constrained {
+  width: 95%;
+  margin: 0 auto;
+  *zoom: 1; }
+  /* line 38, ../../../../../../../../../../../../home/o1.ftp/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  .l-constrained:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 46, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+.l-header p, .l-header h2 {
+  margin: 0; }
+
+/* line 52, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+.l-navigation {
+  clear: right;
+  *zoom: 1; }
+  /* line 38, ../../../../../../../../../../../../home/o1.ftp/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  .l-navigation:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 57, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+  .l-navigation .block-body p {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: 0.381em; }
+
+/* line 90, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+.l-region--thumbnail-1 {
+  height: 100%;
+  -sgs-span-settings: ("span": 2, "location": 1, "grid": 4, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+  width: 45.45455%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+  clear: left; }
+
+/* line 95, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+.l-region--thumbnail-2 {
+  height: 100%;
+  -sgs-span-settings: ("span": 2, "location": 3, "grid": 4, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+  width: 45.45455%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  clear: right; }
+
+/* line 100, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+.l-region--thumbnail-3 {
+  height: 100%;
+  -sgs-span-settings: ("span": 2, "location": 1, "grid": 4, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+  width: 45.45455%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+  clear: left; }
+
+/* line 105, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+.l-region--thumbnail-4 {
+  height: 100%;
+  -sgs-span-settings: ("span": 2, "location": 3, "grid": 4, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+  width: 45.45455%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  clear: right; }
+
+@media (min-width: 44em) {
+  /* line 130, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+  .l-header {
+    overflow: hidden;
+    *zoom: 1;
+    padding: 1.42857% 0;
+    background: url('../../../images/front-page-bg.jpg?1418604679') center top;
+    background-size: cover; }
+    /* line 136, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+    .l-header p, .l-header h2 {
+      font-size: 1vw;
+      margin: 0; }
+    /* line 141, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+    .l-header .l-region--branding,
+    .l-header .l-navigation,
+    .l-header .l-region--video,
+    .l-header .l-region--request {
+      margin: 1.42857% 0; }
+    /* line 147, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+    .l-header .l-region--branding {
+      -sgs-span-settings: ("span": 4, "location": 1, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+      width: 31.42857%;
+      clear: right;
+      float: left;
+      margin-left: 0;
+      margin-right: 2.85714%;
+      clear: both; }
+    /* line 151, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+    .l-header .l-navigation {
+      -sgs-span-settings: ("span": 8, "location": 5, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+      width: 65.71429%;
+      clear: right;
+      float: right;
+      margin-right: 0; }
+      /* line 157, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-navigation .block-body {
+        background-color: black;
+        color: white;
+        text-align: center;
+        text-transform: uppercase; }
+      /* line 164, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-navigation .l-region--thumbnail-1 {
+        -sgs-span-settings: ("span": 3, "location": 1, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+        width: 22.85714%;
+        clear: right;
+        float: left;
+        margin-left: 0;
+        margin-right: 2.85714%;
+        clear: both; }
+      /* line 167, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-navigation .l-region--thumbnail-2 {
+        -sgs-span-settings: ("span": 3, "location": 1, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+        width: 22.85714%;
+        clear: right;
+        float: left;
+        margin-left: 0;
+        margin-right: 2.85714%; }
+      /* line 170, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-navigation .l-region--thumbnail-3 {
+        -sgs-span-settings: ("span": 3, "location": 1, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+        width: 22.85714%;
+        clear: right;
+        float: left;
+        margin-left: 0;
+        margin-right: 2.85714%; }
+      /* line 173, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-navigation .l-region--thumbnail-4 {
+        -sgs-span-settings: ("span": 3, "location": 10, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+        width: 22.85714%;
+        clear: right;
+        float: right;
+        margin-right: 0; }
+    /* line 179, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+    .l-header .l-region--video {
+      -sgs-span-settings: ("span": 8, "location": 1, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+      width: 65.71429%;
+      clear: right;
+      float: left;
+      margin-left: 0;
+      margin-right: 2.85714%;
+      clear: both; }
+    /* line 183, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+    .l-header .l-region--request {
+      text-align: center;
+      -sgs-span-settings: ("span": 4, "location": 9, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+      width: 31.42857%;
+      clear: right;
+      float: right;
+      margin-right: 0; }
+      /* line 184, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request .pane-entityform-block-signup-for-contact {
+        border-radius: 0.5vw;
+        position: relative;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background-color: #1784c2;
+        padding-bottom: 117.49%; }
+      /* line 198, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request h2.pane-title {
+        font-size: 2vw;
+        line-height: 1.618vw;
+        color: #d6c460;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 1vw; }
+      /* line 208, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request p {
+        font-size: 1.39vw;
+        color: white;
+        margin-bottom: 1vw; }
+      /* line 214, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request .field-widget-name-widget {
+        -sgs-span-settings: ("span": 6, "location": 1, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+        width: 48.57143%;
+        clear: right;
+        float: left;
+        margin-left: 0;
+        margin-right: 2.85714%;
+        clear: both; }
+      /* line 224, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request label {
+        display: none; }
+      /* line 227, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request .form-item, .l-header .l-region--request .form-wrapper, .l-header .l-region--request .form-submit {
+        margin-top: 0.33vw;
+        margin-bottom: 0; }
+      /* line 232, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request .name-given-wrapper .form-item,
+      .l-header .l-region--request .name-family-wrapper .form-item {
+        margin: 0; }
+      /* line 236, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request input, .l-header .l-region--request textarea {
+        resize: none;
+        width: 100%;
+        font-size: 1.39vw; }
+      /* line 241, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request .field-widget-phone-textfield {
+        -sgs-span-settings: ("span": 6, "location": 7, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+        width: 48.57143%;
+        clear: right;
+        float: right;
+        margin-right: 0; }
+      /* line 245, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request .field-widget-email-textfield {
+        -sgs-span-settings: ("span": 6, "location": 1, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+        width: 48.57143%;
+        clear: right;
+        float: left;
+        margin-left: 0;
+        margin-right: 2.85714%;
+        clear: both; }
+      /* line 248, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request .field-widget-url-external {
+        -sgs-span-settings: ("span": 6, "location": 7, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+        width: 48.57143%;
+        clear: right;
+        float: right;
+        margin-right: 0; }
+      /* line 252, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request fieldset.form-wrapper {
+        border: 0;
+        margin: 0;
+        padding: 0; }
+        /* line 256, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+        .l-header .l-region--request fieldset.form-wrapper legend {
+          display: none; }
+      /* line 261, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request .field-widget-text-textarea {
+        -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+        width: 100%;
+        clear: right;
+        float: right;
+        margin-right: 0;
+        clear: both; }
+      /* line 264, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request .form-submit {
+        width: 80%; }
+
+  /* line 279, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+  .l-constrained {
+    width: 90%; } }
+@media (min-width: 70em) {
+  /* line 294, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+  .l-constrained {
+    width: 80%; } }
+
+/*# sourceMappingURL=frontpage.layout.css.map */

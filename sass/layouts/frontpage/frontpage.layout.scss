@@ -180,7 +180,16 @@ $desk: 70em;
       @include float-span(8, 'first');
       // clear: left;
     }
+
+
     .l-region--request {
+
+      .form-wrapper{
+        margin: 0.33vw 0;
+      }
+      .form-item{
+        margin: 0;
+      }
       .pane-entityform-block-signup-for-contact{
         border-radius: 0.5vw;
         position: relative;
@@ -197,8 +206,8 @@ $desk: 70em;
       //@include clearfix;// clear: right;
       h2.pane-title{
         
-        font-size: 2vw;
-        line-height: 1.618vw;        //text-align: center;
+        font-size: 2.33vw;
+        line-height: 2.33vw;        //text-align: center;
         color: $yellow;
         text-transform: uppercase;
         font-weight: bold;
@@ -206,28 +215,15 @@ $desk: 70em;
         }
 
       p{
-        font-size: 1.39vw;
+        font-size: 1.5vw;
+        line-height: 1.5vw;
         color: white;
-        margin-bottom: 1vw;
+        margin: 0.5vw;
       }
       
-      .field-widget-name-widget{
-        @include float-span(6,'first') ;
-        // .name-given-wrapper{
-        //   @include grid-span(6,1,8) ;
-        // }
-        // .name-family-wrapper{
-        //   @include grid-span(4,5,8) ;
-        // }
-      }
       
-      label{
-          display: none;
-        }
-      .form-item, .form-wrapper, .form-submit{
-          margin-top: 0.33vw;
-          margin-bottom: 0;
-      }
+      
+      
       //.field-type-name .form-item-field-name .form-item
       // .name-given-wrapper .form-item,
       // .name-family-wrapper .form-item{
@@ -236,7 +232,8 @@ $desk: 70em;
       input, textarea{
         resize: none;
         width: 100%;
-        font-size: 1.39vw;
+        font-size: 1.33vw;
+        line-height: 1.33vw;
       }
       .field-name-field-name{
         @include float-span(6,'first') ;
@@ -253,21 +250,18 @@ $desk: 70em;
         @include float-span(6,'last') ;
       }
       
-      fieldset.form-wrapper{
-        border: 0;
-        margin: 0;
-        padding: 0;
-        legend{
-            display: none;
-          }
-      }
+      
       
       .field-widget-text-textarea{
           @include float-span(12,'first') ;
       }
       .form-submit{
+        font-size: 2vw;
+        line-height: 2vw;
+        font-weight: bold;
         //include float-span(8,3) ;
         width: 80%;
+        color: $site-color;
         //white-space: pre-wrap;
         //padding: 4% 9%;
         //button{

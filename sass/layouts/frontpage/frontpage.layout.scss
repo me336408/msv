@@ -191,6 +191,8 @@ $desk: 70em;
         margin: 0;
       }
       .pane-entityform-block-signup-for-contact{
+        //margin: -0.5vw;
+        border: 0.5vw;
         border-radius: 0.5vw;
         position: relative;
         height: 0;
@@ -211,14 +213,14 @@ $desk: 70em;
         color: $yellow;
         text-transform: uppercase;
         font-weight: bold;
-        margin: 1vw;
+        margin: 0.5vw;
         }
 
       p{
         font-size: 1.5vw;
         line-height: 1.5vw;
         color: white;
-        margin: 0.5vw;
+        margin: 0.33vw;
       }
       
       
@@ -254,6 +256,10 @@ $desk: 70em;
       
       .field-widget-text-textarea{
           @include float-span(12,'first') ;
+          #edit-field-message-und-0-value{
+            resize: none;
+          }
+          
       }
       .form-submit{
         font-size: 2vw;

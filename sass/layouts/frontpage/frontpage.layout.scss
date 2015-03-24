@@ -192,13 +192,13 @@ $desk: 70em;
       }
       .pane-entityform-block-signup-for-contact{
         //margin: -0.5vw;
-        border: 0.5vw;
-        border-radius: 0.5vw;
+        //border: 0.5vw;
+        border-radius: 1vw;
         position: relative;
         height: 0;
         overflow: hidden;
         max-width: 100%;
-        background-color: $site-color;
+        background-color: rgba($site-color, 0.666);
         //height: auto;
         padding-bottom: 117.49%;
       }
@@ -208,20 +208,23 @@ $desk: 70em;
       //@include clearfix;// clear: right;
       h2.pane-title{
         
-        font-size: 2.33vw;
-        line-height: 2.33vw;        //text-align: center;
-        color: $yellow;
+
+        font-size: 2vw;
+        line-height: 2vw;        //text-align: center;
+        color: white;
         text-transform: uppercase;
-        font-weight: bold;
+        font-weight: 900;
         margin: 0.5vw;
         }
-
-      p{
-        font-size: 1.5vw;
-        line-height: 1.5vw;
-        color: white;
-        margin: 0.33vw;
-      }
+        div.pre-instructions{
+          @include float-span(12, 'last');
+          p{
+            font-size: 1.33vw;
+            line-height: 1.66vw;
+            color: black;
+            //margin: 0.33vw;
+          }
+        }
       
       
       
@@ -234,8 +237,8 @@ $desk: 70em;
       input, textarea{
         resize: none;
         width: 100%;
-        font-size: 1.33vw;
-        line-height: 1.33vw;
+        font-size: 1.5vw;
+        line-height: 1.5vw;
       }
       .field-name-field-name{
         @include float-span(6,'first') ;
@@ -259,22 +262,67 @@ $desk: 70em;
           #edit-field-message-und-0-value{
             resize: none;
           }
+          .grippie{
+            display: none;
+          }
           
       }
-      .form-submit{
-        font-size: 2vw;
-        line-height: 2vw;
-        font-weight: bold;
-        //include float-span(8,3) ;
-        width: 80%;
-        color: $site-color;
-        //white-space: pre-wrap;
-        //padding: 4% 9%;
-        //button{
-          //color: white;
-          //background-color: $site-color;
-        //}
-        //border-radius: 1vw;
+      .field-name-field-newsletter{
+        @include float-span(12,'last') ;
+        .form-checkbox{
+          @include float-span(1,'first') ;
+          
+        
+        }
+        input.form-checkbox{
+            width: 1.5vw;
+            height: 1.5vw;
+          }
+          
+        .option{
+          @include float-span(11,'last') ;
+          font-size: 1vw;
+          line-height: 1vw;
+          text-align: left;
+          //color: $site-color;
+          color: rgba(black, 0.5);
+          //display: inline;
+        }
+
+      }
+      .form-actions{
+        @include float-span(12,'last') ;
+      
+        .form-submit{
+          @include grid-span(8,3) ;
+          font-size: 2vw;
+          line-height: 3vw;
+          font-weight: bold;
+          //include float-span(8,3) ;
+          color: $site-color;
+          border-radius: 0.5vw;
+          //white-space: pre-wrap;
+          //padding: 4% 9%;
+          //button{
+            //color: white;
+
+            //background-color: $site-color;
+          //}
+          //border-radius: 1vw;
+          
+          
+        }
+        input[type="submit"]{
+            background: white;
+          }
+      }
+      .pane-custom{
+        p{
+          font-size: 0.66vw;
+          line-height: 1vw;
+        }
+        margin-top: -2vw;
+        //z-index: 100;
       }
       //@include background-grid();
     }

@@ -86,7 +86,7 @@
     overflow: hidden;
     *zoom: 1;
     padding: 1.42857% 0;
-    background: url('../../../images/front-page-bg.jpg?1418604679') center top;
+    background: url('../../../images/front-page-bg.jpg?1427089610') center top;
     background-size: cover; }
     /* line 136, ../../../sass/layouts/frontpage/frontpage.layout.scss */
     .l-header p, .l-header h2 {
@@ -161,7 +161,7 @@
       margin-left: 0;
       margin-right: 2.85714%;
       clear: both; }
-    /* line 183, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+    /* line 185, ../../../sass/layouts/frontpage/frontpage.layout.scss */
     .l-header .l-region--request {
       text-align: center;
       -sgs-span-settings: ("span": 4, "location": 9, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
@@ -169,62 +169,47 @@
       clear: right;
       float: right;
       margin-right: 0; }
-      /* line 184, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      /* line 187, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request h2.pane-title, .l-header .l-region--request .pre-instructions, .l-header .l-region--request .form-wrapper {
+        margin: 0.33vw 0; }
+      /* line 190, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request .form-item {
+        margin: 0; }
+      /* line 193, ../../../sass/layouts/frontpage/frontpage.layout.scss */
       .l-header .l-region--request .pane-entityform-block-signup-for-contact {
-        border-radius: 0.5vw;
+        border-radius: 1vw;
         position: relative;
         height: 0;
         overflow: hidden;
         max-width: 100%;
-        background-color: #1784c2;
         padding-bottom: 117.49%; }
-      /* line 198, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      /* line 209, ../../../sass/layouts/frontpage/frontpage.layout.scss */
       .l-header .l-region--request h2.pane-title {
         font-size: 2vw;
-        line-height: 1.618vw;
-        color: #d6c460;
+        line-height: 2vw;
+        color: #1784c2;
         text-transform: uppercase;
-        font-weight: bold;
-        margin: 1vw; }
-      /* line 208, ../../../sass/layouts/frontpage/frontpage.layout.scss */
-      .l-header .l-region--request p {
-        font-size: 1.39vw;
-        color: white;
-        margin-bottom: 1vw; }
-      /* line 214, ../../../sass/layouts/frontpage/frontpage.layout.scss */
-      .l-header .l-region--request .field-widget-name-widget {
-        -sgs-span-settings: ("span": 6, "location": 1, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-        width: 48.57143%;
+        font-weight: 900; }
+      /* line 219, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request .pre-instructions {
+        -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+        width: 100%;
         clear: right;
-        float: left;
-        margin-left: 0;
-        margin-right: 2.85714%;
-        clear: both; }
-      /* line 224, ../../../sass/layouts/frontpage/frontpage.layout.scss */
-      .l-header .l-region--request label {
-        display: none; }
-      /* line 227, ../../../sass/layouts/frontpage/frontpage.layout.scss */
-      .l-header .l-region--request .form-item, .l-header .l-region--request .form-wrapper, .l-header .l-region--request .form-submit {
-        margin-top: 0.33vw;
-        margin-bottom: 0; }
-      /* line 232, ../../../sass/layouts/frontpage/frontpage.layout.scss */
-      .l-header .l-region--request .name-given-wrapper .form-item,
-      .l-header .l-region--request .name-family-wrapper .form-item {
-        margin: 0; }
-      /* line 236, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+        float: right;
+        margin-right: 0; }
+        /* line 221, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+        .l-header .l-region--request .pre-instructions p {
+          font-size: 1.33vw;
+          line-height: 1.33vw;
+          color: black; }
+      /* line 237, ../../../sass/layouts/frontpage/frontpage.layout.scss */
       .l-header .l-region--request input, .l-header .l-region--request textarea {
         resize: none;
         width: 100%;
-        font-size: 1.39vw; }
-      /* line 241, ../../../sass/layouts/frontpage/frontpage.layout.scss */
-      .l-header .l-region--request .field-widget-phone-textfield {
-        -sgs-span-settings: ("span": 6, "location": 7, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-        width: 48.57143%;
-        clear: right;
-        float: right;
-        margin-right: 0; }
-      /* line 245, ../../../sass/layouts/frontpage/frontpage.layout.scss */
-      .l-header .l-region--request .field-widget-email-textfield {
+        font-size: 1.5vw;
+        line-height: 1.5vw; }
+      /* line 243, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request .field-name-field-name {
         -sgs-span-settings: ("span": 6, "location": 1, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
         width: 48.57143%;
         clear: right;
@@ -232,22 +217,30 @@
         margin-left: 0;
         margin-right: 2.85714%;
         clear: both; }
-      /* line 248, ../../../sass/layouts/frontpage/frontpage.layout.scss */
-      .l-header .l-region--request .field-widget-url-external {
+      /* line 247, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request .field-name-field-phone {
         -sgs-span-settings: ("span": 6, "location": 7, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
         width: 48.57143%;
         clear: right;
         float: right;
         margin-right: 0; }
-      /* line 252, ../../../sass/layouts/frontpage/frontpage.layout.scss */
-      .l-header .l-region--request fieldset.form-wrapper {
-        border: 0;
-        margin: 0;
-        padding: 0; }
-        /* line 256, ../../../sass/layouts/frontpage/frontpage.layout.scss */
-        .l-header .l-region--request fieldset.form-wrapper legend {
-          display: none; }
-      /* line 261, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      /* line 251, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request .field-name-field-email {
+        -sgs-span-settings: ("span": 6, "location": 1, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+        width: 48.57143%;
+        clear: right;
+        float: left;
+        margin-left: 0;
+        margin-right: 2.85714%;
+        clear: both; }
+      /* line 254, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request .field-name-field-website {
+        -sgs-span-settings: ("span": 6, "location": 7, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+        width: 48.57143%;
+        clear: right;
+        float: right;
+        margin-right: 0; }
+      /* line 260, ../../../sass/layouts/frontpage/frontpage.layout.scss */
       .l-header .l-region--request .field-widget-text-textarea {
         -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
         width: 100%;
@@ -255,16 +248,105 @@
         float: right;
         margin-right: 0;
         clear: both; }
-      /* line 264, ../../../sass/layouts/frontpage/frontpage.layout.scss */
-      .l-header .l-region--request .form-submit {
-        width: 80%; }
+        /* line 262, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+        .l-header .l-region--request .field-widget-text-textarea #edit-field-message-und-0-value {
+          resize: none; }
+        /* line 265, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+        .l-header .l-region--request .field-widget-text-textarea .grippie {
+          display: none; }
+      /* line 270, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request .field-name-field-newsletter {
+        -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+        width: 100%;
+        clear: right;
+        float: right;
+        margin-right: 0; }
+        /* line 272, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+        .l-header .l-region--request .field-name-field-newsletter .form-checkbox {
+          -sgs-span-settings: ("span": 1, "location": 1, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+          width: 5.71429%;
+          clear: right;
+          float: left;
+          margin-left: 0;
+          margin-right: 2.85714%;
+          clear: both; }
+        /* line 277, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+        .l-header .l-region--request .field-name-field-newsletter input.form-checkbox {
+          width: 1.4vw;
+          height: 1.4vw; }
+        /* line 283, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+        .l-header .l-region--request .field-name-field-newsletter .option {
+          -sgs-span-settings: ("span": 11, "location": 2, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+          width: 91.42857%;
+          clear: right;
+          float: right;
+          margin-right: 0;
+          font-size: 1vw;
+          line-height: 1vw;
+          text-align: left;
+          color: rgba(0, 0, 0, 0.5); }
+      /* line 294, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request .form-actions {
+        -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+        width: 100%;
+        clear: right;
+        float: right;
+        margin-right: 0; }
+        /* line 297, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+        .l-header .l-region--request .form-actions .form-submit {
+          -sgs-span-settings: ("span": 10, "location": 2, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+          width: 82.85714%;
+          float: left;
+          margin-right: -100%;
+          margin-left: 8.57143%;
+          clear: none;
+          font-size: 2vw;
+          line-height: 3vw;
+          font-weight: bold;
+          color: white;
+          border-radius: 0.5vw; }
+        /* line 316, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+        .l-header .l-region--request .form-actions input[type="submit"] {
+          background: #1784c2; }
+        /* line 319, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+        .l-header .l-region--request .form-actions input:hover {
+          background: black; }
+      /* line 324, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+      .l-header .l-region--request .pane-custom {
+        margin-top: -2vw; }
+        /* line 325, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+        .l-header .l-region--request .pane-custom p {
+          opacity: 0.33;
+          font-size: 1vw;
+          line-height: 1vw; }
 
-  /* line 279, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+  /* line 337, ../../../sass/layouts/frontpage/frontpage.layout.scss */
   .l-constrained {
-    width: 90%; } }
-@media (min-width: 70em) {
-  /* line 294, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+    -sgs-span-settings: ("span": 10, "location": 2, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 82.85714%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 8.57143%;
+    clear: none; }
+
+  /* line 347, ../../../sass/layouts/frontpage/frontpage.layout.scss */
+  .l-main.l-constrained {
+    overflow: hidden;
+    *zoom: 1;
+    -sgs-span-settings: ("span": 8, "location": 3, "grid": 12, "gutter": 0.5, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 65.71429%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 17.14286%;
+    clear: none; } }
+/* @include breakpoint($desk, true) {
   .l-constrained {
-    width: 80%; } }
+  //  max-width: 2930px;
+//   //   //.block__title{
+//   //   //}
+//   // max-width: $desk;
+     width: 80%;
+  }
+} */
 
 /*# sourceMappingURL=frontpage.layout.css.map */

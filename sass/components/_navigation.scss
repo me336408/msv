@@ -1,0 +1,63 @@
+.l-highlighted-wrapper{
+	
+	@include clearfix;
+	background: $dark-grey;
+	color: white;
+	margin-bottom: 6vw;
+
+	.l-region--highlighted{
+		
+		@include clearfix;
+		@include grid-span(10,2) ;
+		
+	}
+	.pane-fillform{//@include clearfix;
+		//position: absolute;
+		//top: 0; left: 0; bottom: 0; right: 0;
+		@include clearfix;
+		@include float-span(5,'first') ;
+
+		
+	}
+	.pane-or{//@include clearfix;
+		//position: absolute;
+		//top: 0; left: 0; bottom: 0; right: 0;
+		@include clearfix;
+		@include float-span(1) ;
+		text-align: center;
+
+		
+
+	}
+	.pane-callus{//@include clearfix;
+		//position: absolute;
+		//top: 0; left: 0; bottom: 0; right: 0;
+		@include clearfix;
+		@include float-span(2) ;
+		text-align: right;
+		
+	}
+	.pane-number{//@include clearfix;
+		//position: absolute;
+		//top: 0; left: 0; bottom: 0; right: 0;
+		@include clearfix;
+		@include float-span(4,'last') ;
+
+		text-align: center;
+
+		p{//position: absolute;
+			font-size: 3vw;
+			margin: 0;
+
+			
+
+		}
+	}
+
+	p{//@include clearfix;
+		font-size: 1.33vw;
+		//margin: auto;
+		
+		//margin: 0;
+	}
+}
